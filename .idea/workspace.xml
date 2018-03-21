@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49b3c436-9df1-4c33-927e-2a893f63b684" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/me.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/bootstrap/d3.v3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/bootstrap/jquery.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -31,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+            <state relative-caret-position="286">
+              <caret line="196" column="25" selection-start-line="196" selection-start-column="25" selection-end-line="196" selection-end-column="25" />
               <folding>
                 <element signature="e#4047#4053#0" expanded="true" />
                 <element signature="e#4239#4245#0" expanded="true" />
@@ -43,7 +39,6 @@
                 <element signature="n#div#2;n#div#2;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#9649#9655#0" expanded="true" />
                 <element signature="e#9741#9747#0" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#3;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,38 +138,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sunjiao123sun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sunjiao123sun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sunjiao123sun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="icon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sunjiao123sun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sunjiao123sun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataset" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -473,7 +436,6 @@
             <element signature="n#div#2;n#div#2;n#html#0;n#!!top" expanded="false" />
             <element signature="e#9649#9655#0" expanded="true" />
             <element signature="e#9741#9747#0" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#3;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -524,7 +486,6 @@
             <element signature="n#div#2;n#div#2;n#html#0;n#!!top" expanded="false" />
             <element signature="e#9649#9655#0" expanded="true" />
             <element signature="e#9741#9747#0" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#3;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -608,8 +569,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+        <state relative-caret-position="286">
+          <caret line="196" column="25" selection-start-line="196" selection-start-column="25" selection-end-line="196" selection-end-column="25" />
           <folding>
             <element signature="e#4047#4053#0" expanded="true" />
             <element signature="e#4239#4245#0" expanded="true" />
@@ -620,7 +581,6 @@
             <element signature="n#div#2;n#div#2;n#html#0;n#!!top" expanded="false" />
             <element signature="e#9649#9655#0" expanded="true" />
             <element signature="e#9741#9747#0" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#3;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
