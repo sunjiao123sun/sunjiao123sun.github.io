@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49b3c436-9df1-4c33-927e-2a893f63b684" name="Default" comment="" />
+    <list default="true" id="49b3c436-9df1-4c33-927e-2a893f63b684" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/me.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/bootstrap/d3.v3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/bootstrap/jquery.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <ignored path="jiaosunthu.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -24,18 +31,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="40" column="57" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
+            <state relative-caret-position="412">
+              <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
               <folding>
-                <element signature="e#3909#3915#0" expanded="true" />
-                <element signature="e#4101#4107#0" expanded="true" />
+                <element signature="e#4047#4053#0" expanded="true" />
+                <element signature="e#4239#4245#0" expanded="true" />
                 <element signature="n#style#0;n#strong#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#div#2;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#1;n#div#2;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#2;n#div#2;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#9511#9517#0" expanded="true" />
-                <element signature="e#9603#9609#0" expanded="true" />
+                <element signature="e#9649#9655#0" expanded="true" />
+                <element signature="e#9741#9747#0" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#3;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -48,38 +55,6 @@
             <state relative-caret-position="118">
               <caret line="82" column="11" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/bootstrap/css/bootstrap.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="113846" selection-start-line="4" selection-start-column="113846" selection-end-line="4" selection-end-column="113846" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="d3.v3.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/bootstrap/d3.v3.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="9121" selection-start-line="4" selection-start-column="9121" selection-end-line="4" selection-end-column="9121" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/bootstrap/jquery.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="9189" column="4" selection-start-line="9189" selection-start-column="4" selection-end-line="9189" selection-end-column="4" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -152,15 +127,13 @@
               <option name="myItemId" value="sunjiao123sun.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sunjiao123sun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sunjiao123sun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="&lt; Python 2.7.10 (/usr/bin/python) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -170,10 +143,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sunjiao123sun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -192,6 +161,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="icon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sunjiao123sun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sunjiao123sun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataset" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -481,15 +464,15 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3909#3915#0" expanded="true" />
-            <element signature="e#4101#4107#0" expanded="true" />
+            <element signature="e#4047#4053#0" expanded="true" />
+            <element signature="e#4239#4245#0" expanded="true" />
             <element signature="n#style#0;n#strong#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#2;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#1;n#div#2;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#div#2;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#9511#9517#0" expanded="true" />
-            <element signature="e#9603#9609#0" expanded="true" />
+            <element signature="e#9649#9655#0" expanded="true" />
+            <element signature="e#9741#9747#0" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#3;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -523,9 +506,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192969">
           <caret line="9189" column="4" selection-start-line="9189" selection-start-column="4" selection-end-line="9189" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -534,15 +515,15 @@
         <state relative-caret-position="3045">
           <caret line="145" column="14" selection-start-line="145" selection-start-column="14" selection-end-line="145" selection-end-column="14" />
           <folding>
-            <element signature="e#3909#3915#0" expanded="true" />
-            <element signature="e#4101#4107#0" expanded="true" />
+            <element signature="e#4047#4053#0" expanded="true" />
+            <element signature="e#4239#4245#0" expanded="true" />
             <element signature="n#style#0;n#strong#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#2;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#1;n#div#2;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#div#2;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#9511#9517#0" expanded="true" />
-            <element signature="e#9603#9609#0" expanded="true" />
+            <element signature="e#9649#9655#0" expanded="true" />
+            <element signature="e#9741#9747#0" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#3;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -576,9 +557,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192969">
           <caret line="9189" column="4" selection-start-line="9189" selection-start-column="4" selection-end-line="9189" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -610,9 +589,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="9189" column="4" selection-start-line="9189" selection-start-column="4" selection-end-line="9189" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -631,18 +608,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="40" column="57" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
+        <state relative-caret-position="412">
+          <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
           <folding>
-            <element signature="e#3909#3915#0" expanded="true" />
-            <element signature="e#4101#4107#0" expanded="true" />
+            <element signature="e#4047#4053#0" expanded="true" />
+            <element signature="e#4239#4245#0" expanded="true" />
             <element signature="n#style#0;n#strong#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#2;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#1;n#div#2;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#div#2;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#9511#9517#0" expanded="true" />
-            <element signature="e#9603#9609#0" expanded="true" />
+            <element signature="e#9649#9655#0" expanded="true" />
+            <element signature="e#9741#9747#0" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#3;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
