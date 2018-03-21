@@ -81,7 +81,7 @@ a:focus {
 }
 
 .work-img {
-    width: 261px;
+    /*width: 261px;*/
     height: auto !important;
     border: 1px solid lightgray;
     border-radius: 10px;
