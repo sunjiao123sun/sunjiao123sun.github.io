@@ -7,6 +7,10 @@ body {
     color: #606c71;
 }
 
+strong {
+    font-size: 14.8px;
+}
+
 
 /*
 a:hover,

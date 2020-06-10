@@ -10,9 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49b3c436-9df1-4c33-927e-2a893f63b684" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020/CHI2020-Jiao-final.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -141,7 +140,8 @@
       <workItem from="1576311959300" duration="206000" />
       <workItem from="1577607117551" duration="333000" />
       <workItem from="1579510159590" duration="6718000" />
-      <workItem from="1591829235018" duration="2349000" />
+      <workItem from="1591829235018" duration="2386000" />
+      <workItem from="1591832152497" duration="212000" />
     </task>
     <servers />
   </component>
