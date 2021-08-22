@@ -48,10 +48,10 @@ a:focus {
 }
 
 #about {
-    margin-top: 50px;
+    margin-top: 30px;
     padding-top: 50px;
-    padding-bottom: 50px;
-    margin-bottom: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 @keyframes me-img-hover {
@@ -76,7 +76,7 @@ a:focus {
     width: 70%;
     /*border: 10px solid #FFFFCC;*/
     border: 8px solid #FFFFCC;
-    /*transform: rotate(-15deg);*/
+    /*transform: rotate(-10deg);*/
     box-shadow: 0px 0px 2px 3px rgba(255, 255, 255, 0.7), 0px 0px 10px 8px rgba(0, 0, 0, 0.1);
 }
 
