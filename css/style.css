@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
+strong {
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #383b39;
+}
+
+
 body {
     padding: 0;
     margin: 0;
-    font-family: "Verdana", Geneva, sans-serif;
+    font-family: 'Muli', sans-serif;
     font-size: 14px;
     line-height: 1.8;
     color: #606c71;
@@ -21,9 +33,9 @@ a:focus {
 
 .navbar,
 .footer {
-    background-image: linear-gradient(120deg, #c676df, #983e34);
-    /*background-color: #00A2E2;*/
-    color: white;
+    background-image: linear-gradient(120deg, #e8e8e9, #ffffff);
+    background-color: #00A2E2;
+    /*color: white;*/
 }
 
 .navbar .nav>li>a:hover {
@@ -35,7 +47,7 @@ a:focus {
 }
 
 .navbar .nav>li>a {
-    color: white;
+    color: black;
 }
 
 .footer {
@@ -44,7 +56,8 @@ a:focus {
 }
 
 .gray-container {
-    background-color: #eee;
+    /*background-color: #eee;*/
+    border-bottom: solid 3px mistyrose;
 }
 
 #about {
@@ -118,8 +131,14 @@ a:focus {
 }
 #news{
     font-weight: bold;
-    color: red;
+    color: black;
 }
+
+#award{
+    font-weight: bold;
+    color: orangered;
+}
+
 
 #li-important{
     font-weight: bold;
