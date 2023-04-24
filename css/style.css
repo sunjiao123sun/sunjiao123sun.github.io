@@ -4,7 +4,7 @@
 
 strong {
     font-weight: bold;
-    font-family: 'Arial', sans-serif;
+    font-family: PT Serif,serif;
     font-size: 16px;
     color: #383b39;
 }
@@ -13,14 +13,14 @@ strong {
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Muli', sans-serif;
-    font-size: 14px;
+    font-family: PT Serif,serif;
+    font-size: 16px;
     line-height: 1.8;
     color: #606c71;
 }
 
 strong {
-    font-size: 14.8px;
+    font-size: 16.5px;
 }
 
 
@@ -125,10 +125,22 @@ a:focus {
     /*color: #159957;*/
     color: black;
     /*font-family: "Tisa", Times, serif;*/
-    font-family: "Verdana", Geneva, sans-serif;
-    font-size: 20px;
+    /*font-family: "Verdana", Geneva, sans-serif;*/
+    font-family: PT Serif,serif;
+    font-size: 25px;
     font-weight: 50;
 }
+
+.subsection_title {
+    /*color: #159957;*/
+    color: black;
+    /*font-family: "Tisa", Times, serif;*/
+    /*font-family: "Verdana", Geneva, sans-serif;*/
+    font-family: PT Serif,serif;
+    font-size: 18px;
+    font-weight: 50;
+}
+
 #news{
     font-weight: bold;
     color: black;
@@ -136,7 +148,7 @@ a:focus {
 
 #award{
     font-weight: bold;
-    color: orangered;
+    color: #FC0071;
 }
 
 

@@ -3,584 +3,382 @@
 <html lang="en">
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132542846-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-132542846-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-132542846-1');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-132542846-1');
+    </script>
 
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Security-Policy" content="block-all-mixed-content">
+    <meta http-equiv="Content-Security-Policy"
+          content="block-all-mixed-content">
 
     <title>Jiao Sun</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-    <div class="navbar navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <!--<li><a href="#news">News</a></li>-->
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#publication">Publications</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#service">Service</a></li>
-                </ul>
-            </div>
+<div class="navbar navbar-fixed-top" style="font-size: 18px">
+    <div class="container">
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <!--<li><a href="#news">News</a></li>-->
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#publication">Publication</a></li>
+                <li><a href="#talk">Talks</a></li>
+                <li><a href="#service">Service</a></li>
+            </ul>
         </div>
     </div>
+</div>
 
-    <div class="gray-container" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-4">
-                    <img style="margin-top: 0px" id="me-img" src="images/nyc-22.jpg">
-                    <br>
-                    <div style="margin-left: 15px; margin-top:10px; position: center; font-size:
-                            small; color: blue">Governors Island @ NYC, Jun. 2022</div>
-                    <div style="margin-left: 12px; font-size: small; color: blue">Photo not (😏)
-                        taken by my friend
-                        <a href="https://sites.google.com/site/xunannancy/">Nancy</a></div>
+<div class="gray-container" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4">
+                <img style="margin-top: 15%" id="me-img" src="images/nyc-22.jpg">
+                <br>
+                <div style="margin-left: 15px; margin-top:10px; position: center; font-size:
+                            small; color: #1d9bf0">Governors Island @ NYC, Jun. 2022
                 </div>
-                <div class="col-xs-8">
-                    <br>
-                    <h2>Jiao Sun
-                        <a href="https://twitter.com/sunjiao123sun_?ref_src=twsrc%5Etfw"
-                           class="twitter-follow-button" data-show-count="true"
-                           data-size="medium">Follow
-                            @sunjiao123sun_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                        <a href="https://github.com/sunjiao123sun">
-                            <img src = "images/icon/github_square.png" title = "github" width ="24">
-                        </a>
-                    </h2>
-
-
-                    <p>
-                    <img src="images/icon/education.png" title="education" width="24"
-                         height="24"> Hi there 👋 I am a Ph.D. candidate (yay! 🎉) working on NLP
-                        at <a
-                            href="https://en.wikipedia.org/wiki/University_of_Southern_California">USC</a>
-                        since Fall 2019, working with <a
-                            href="https://xuezhemax.github.io/">Xuezhe Ma</a> (advisor), <a
-                            href="https://vnpeng.net/">Nanyun (Violet) Peng</a> and <a
-                            href="https://swabhs.com/"> Swabha Swayamdipta</a>.
-                        Before that, I finish my master's @
-                    <a href="https://iiis.tsinghua.edu.cn/en/">IIIS</a>, lead by <a
-                        href="https://iiis.tsinghua.edu.cn/yao/">Andrew Chi-Chih Yao</a> at  <a
-                        href="http://www.tsinghua.edu.cn/publish/newthuen/index.html">Tsinghua University</a>.
-                    <br/>
-                    </p>
-                    <p>
-                    <img src="images/icon/thought.png" title="thoughts" width="24" height="24">
-                        I work on <strong>trustworthy NLG</strong>. More specifically, I
-                        build controlled text generation models and enhance the robustness of
-                        NLG systems, including NLG evaluation and fairness.
-                    </p>
-                    <p>
-                    <img src="images/icon/email.png" title="email" width="24" height="24"> Feel
-                        free to drop me a line! jiaosun.thu[at]gmail.com</br>
-
-                    </p>
-
-                    <div>
-                        <br>
-                        <div id="news"><img src="images/icon/news.png" title="news" width="24"
-                                            height="24"> About me</div>
-
-                        <div class="row work-block">
-                            <ul>
-                                <li id="li"> 2022.10 &nbsp;We should never count # of
-                                    accepted papers (💯%), but I am thrilled to have four
-                                    (co)first-authored papers accepted to
-                                    EMNLP!
-                                </li>
-                                <li id="li"> 2022.05 &nbsp; Excited to start my internship at
-                                    Google
-                                    Research!</li>
-<!--                                <li id="li"> 2022.05 &nbsp; Finished my internship at Amazon-->
-<!--                                    Alexa AI on pun generation!</li>-->
-                                <li> 2022.03 &nbsp; Best paper honorable mention at
-                                    CHI 2022!</li>
-
-                                <!--<li id="li-important"> 2018.10 &nbsp; I am looking for a Ph.D. position!</li>-->
-                                <li id="li"> 2021.08 &nbsp AESOP and ESTER got accepted by
-                                    EMNLP 2021, stay tuned!
-                                    <!--and <a href="http://dbis.rwth-aachen.de/cms/staff/quix">Christoph Quix</a> from 2019.01.01 to 2019.04.01.-->
-                                </li>
-                                <li><img src="images/icon/basketball-1.png" width ="20">: I follow
-                                    <img src="images/icon/celtics.png" width ="20"> Boston
-                                    Celtics and <img src="images/icon/heat.png" width="20"> Miami
-                                    Heat.
-                                </li>
-<!--                                <li> 2021.03 &nbsp<a-->
-<!--                                        href="https://aclanthology.org/2021.naacl-demos.7/">-->
-<!--                                    EventPlus</a> is-->
-<!--                                    accepted by NAACL'21 demo track!</a></li>-->
-<!--                                <li> 2018.05 &nbsp; Presented FraudVis and won the <strong> Best Poster Prize </strong> in The 8th Cross-Strait Tsinghua Postgraduate Academic Forum!</li>-->
-<!--                                <li> 2018.04 &nbsp;FraudVis is accepted by <strong style="font-weight: 50">PacificVis 2018!</strong></li>-->
-                            </ul>
-                        </div>
-                    </div>
+                <div style="margin-left: 12px; font-size: small; color: #1d9bf0">
+                    Photo not (😏)
+                    taken by my friend
+                    <a href="https://sites.google.com/site/xunannancy/">Nancy</a>
                 </div>
+                <br><br>
+                <img style="width: 80%" id="logo-img" src="images/logo.001.png">
             </div>
-        </div>
-    </div>
-    <div id="rows" style="margin-left: 8%">
-
-
-        <div id="publication">
-            <div class="container">
-                <h2 class="section_title"> Publication &nbsp;
+            <div class="col-xs-8">
+                <h2>Jiao Sun
+                    <a href="https://twitter.com/sunjiao123sun_?ref_src=twsrc%5Etfw"
+                       class="twitter-follow-button" data-show-count="true"
+                       data-size="medium">Follow
+                        @sunjiao123sun_</a>
+                    <script async src="https://platform.twitter.com/widgets.js"
+                            charset="utf-8"></script>
+                    <a href="https://github.com/sunjiao123sun">
+                        <img src="images/icon/github_square.png" title="github"
+                             width="24">
+                    </a>
                     <a href="https://scholar.google.com.hk/citations?user=7xWN15gAAAAJ&hl=en/">
-                            <img src = "images/icon/scholar.jpg" title = "scholar" width ="28">
+                        <img src="images/icon/scholar.jpg" title="scholar"
+                             width="28">
                     </a>
                 </h2>
 
+
+                <p>
+                    <img src="images/icon/education.png" title="education"
+                         width="30"
+                         height="24"> Hi there 👋 I am a Ph.D. candidate (yay!
+                    🎉) and an <a
+                        href="https://www.amazon.science/latest-news/amazon-and-usc-name-three-new-ml-fellows"
+                        style="color:#FC0071;">Amazon Fellow</a> working on NLP
+                    at <a
+                        href="https://en.wikipedia.org/wiki/University_of_Southern_California">USC</a>
+                    since Fall 2019, working with <a
+                        href="https://xuezhemax.github.io/">Xuezhe Ma</a>
+                    (advisor), <a
+                        href="https://vnpeng.net/">Nanyun (Violet) Peng</a> and
+                    <a
+                            href="https://swabhs.com/"> Swabha Swayamdipta</a>.
+                    Before that, I finish my master's @
+                    <a href="https://iiis.tsinghua.edu.cn/en/">IIIS</a>, lead by
+                    <a
+                            href="https://iiis.tsinghua.edu.cn/yao/">Andrew
+                        Chi-Chih Yao</a> at <a
+                        href="http://www.tsinghua.edu.cn/publish/newthuen/index.html">Tsinghua
+                    University</a>.
+                    <br/>
+                </p>
+                <p>
+                    <img src="images/icon/thought.png" title="thoughts"
+                         width="30" height="30">
+                    I work on <strong>trustworthy NLG</strong>. More
+                    specifically, I
+                    build controlled text generation models and enhance the
+                    robustness of
+                    NLG systems, including NLG evaluation and fairness. More
+                    specifically:
+                </p>
                 <div class="row work-block">
-                    <div class="project col-xs-3" style="position: center">
-                        <h4><span class="badge badge-secondary" style="background-color:
-                            #913b3a; font-size: 14px">EMNLP 2022</span></h4>
-                    </div>
-                    <div class="col-xs-9"><strong>Jiao Sun</strong>, Anjali Narayan-Chen, Shereen
-                        Oraby, Shuyang Gao, Tagyoung Chung, Jing Huang, Yang Liu and Nanyun Peng
-                        <br>
-                        <a href="https://arxiv.org/abs/2210.13522">
-                            Context-Situated Pun Generation
-                        </a>
-                        <br>
-                        <a href="">
-                            <img src = "images/icon/github_square.png" title = "github" width ="24">
-                        </a>
-                    </div>
+                    <ul>
+                        <li><strong>Better Generation Evaluation</strong>:
+                            Dialect-Robust Evaluation <a
+                                    href="https://arxiv.org/abs/2211.00922">[In
+                                Submission]</a>; Evaluate the Helpfulness of
+                            Dialogue Responses <a
+                                    href="https://arxiv.org/pdf/2205.12554.pdf">[In
+                                Submission]</a>; Robustness of Bias Evaluation
+                            <a href="https://arxiv.org/abs/2212.01700">[EMNLP
+                                2022]</a></li>
+                        <li><strong>Generation Models</strong>: Paraphrase
+                            Generation <a
+                                    href="https://aclanthology.org/2021.emnlp-main.420/">[EMNLP
+                                2021]</a>; Controlled Pun Generation <a
+                                    href="https://arxiv.org/abs/2210.13522">[EMNLP
+                                2022]</a></li>
+                        <li><strong>Data Curation and Collection</strong>: Pun
+                            with Explanation <a
+                                    href="https://aclanthology.org/2022.emnlp-main.304.pdf">[EMNLP
+                                2022]</a>; Investigate the Benefits of Free-form
+                            Rationales <a
+                                    href="https://aclanthology.org/2022.findings-emnlp.432/">[EMNLP
+                                2022]</a></li>
+                    </ul>
+                    I have also been actively working on <strong>Large Language Models</strong>
+                    (LLMs): 1) I pretrained models with over 60
+                    TB data and then finetuneed them with mT5, ranging from mT5
+                    base towards mT5 XXL (13 billion parameters). 2) I distill
+                    PaLM's ability of dialect rewriting into a smaller model
+                    based on EdiT5. Besides, I spent time working on fairness
+                    problems and promoting fair AI techniques, including event
+                    bias on Wikipedia <a
+                        href="https://aclanthology.org/2021.acl-short.45.pdf"
+                        style="color:#FC0071;">[Best Paper Nomination @ ACL
+                    2021]</a> and on greeting cards <a
+                        href="https://dl.acm.org/doi/10.1145/3491102.3502114"
+                        style="color:#FC0071;">[Best Paper Honorable Mention @
+                    CHI 2022]</a>.
                 </div>
 
-                <div class="row work-block">
-                    <div class="project col-xs-3" style="position: center">
-                        <h4><span class="badge badge-secondary" style="background-color:
-                            #913b3a; font-size: 14px">EMNLP 2022</span></h4>
-                    </div>
-                    <div class="col-xs-9"><strong>Jiao Sun</strong>, Anjali Narayan-Chen, Shereen Oraby, Alessandra Cervone, Tagyoung Chung, Jing Huang, Yang Liu and Nanyun Peng
-                        <br>
-                        <a href="https://arxiv.org/abs/2210.13513">
-                            ExPUNations: Augmenting Puns with Keywords and Explanations
-                        </a>
-                        <br>
-                        <a href="">
-                            <img src = "images/icon/github_square.png" title = "github" width ="24">
-                        </a>
-                    </div>
-                </div>
+                <p>
+                    <img src="images/icon/email.png" title="email" width="30"
+                         height="30"> Feel
+                    free to drop me a line! jiaosun.thu@gmail.com</br>
 
-                <div class="row work-block">
-                    <div class="project col-xs-3" style="position: center">
-                        <h4><span class="badge badge-secondary" style="background-color:
-                            #913b3a; font-size: 14px">EMNLP 2022 Findings</span></h4>
-                    </div>
-                    <div class="col-xs-9">
-                        <strong>Jiao Sun</strong>, Swabha Swayamdipta, Jonathan May and Xuezhe Ma
-                        <br>
-                        <a href="https://arxiv.org/abs/2206.11083">
-                            Investigating the Benefits of Free-Form Rationales
-                        </a>
-                        <br>
-                        <a href="">
-                            <img src = "images/icon/github_square.png" title = "github" width ="24">
-                        </a>
-                    </div>
-                </div>
+                </p>
 
-                <div class="row work-block">
-                    <div class="project col-xs-3" style="position: center">
-                        <h4><span class="badge badge-secondary" style="background-color:
-                            #913b3a; font-size: 14px">EMNLP 2022 Findings</span></h4>
-                    </div>
-                    <div class="col-xs-9">Arshiya Aggarwal*, <strong>Jiao Sun*</strong>, and Nanyun Peng
-                        <br>
-                        <a href="">
-                            Towards Robust Bias Evaluation with Syntactically-diverse Prompts
-                        </a>
-                        <br>
-                        <a href="">
-                            <img src = "images/icon/github_square.png" title = "github" width ="24">
-                        </a>
-                    </div>
-                </div>
-
-                <div class="row work-block">
-                    <div class="project col-xs-3" style="position: center">
-                        <h4><span class="badge badge-secondary" style="background-color:
-                            #913b3a; font-size: 14px">CHI 2022</span></h4>
-                    </div>
-                    <div class="col-xs-9">
-                        <strong>Jiao Sun</strong>, Tongshuang Wu, Yue Jiang, Ronil
-                            Awalegaonkar,
-                        Xi Victoria Lin and Diyi Yang
-                        <br>
-                        <a href="https://dl.acm.org/doi/10.1145/3491102.3502114">
-                        Pretty Princess vs. Successful Leader: Gender Roles in Greeting Card Messages
-                        </a>
-                        <br>
-                        <div id="award">
-                            <img src = "images/icon/award.png" title = "recording" width ="26">
-                                Best Paper Honorable Mention
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row work-block">
-                    <div class="project col-xs-3" style="position: center">
-                        <h4><span class="badge badge-secondary" style="background-color:
-                            #913b3a; font-size: 14px">IUI 2022</span></h4>
-                    </div>
-                    <div class="col-xs-9">
-                        <strong>Jiao Sun</strong>, Q. Vera Liao, Michael Muller, Mayank Agarwal, Stephanie
-                                  Houde, Kartik Talamadupula, Justin D. Weisz
-                        <br>
-                        <a href="https://arxiv.org/abs/2202.04903">
-                            Investigating Explainability of Generative Models for Code through Scenario-Based Design
-                        </a>
-                        <br>
-                    </div>
-                </div>
-
-
-                <div class="row work-block">
-                    <div class="project col-xs-3" style="position: center">
-                        <h4><span class="badge badge-secondary" style="background-color:
-                            #913b3a; font-size: 14px">EMNLP 2021</span></h4>
-                    </div>
-                    <div class="col-xs-9">
-                        <strong>Jiao Sun</strong>, Xuezhe Ma and Nanyun Peng
-                        <br>
-                        <a href="https://aclanthology.org/2021.emnlp-main.420/">AESOP: Paraphrase
-                            Generation with Adaptive Syntactic Control</a>
-                        <br>
-                        <a href="https://github.com/pluslabnlp/aesop">
-                            <img src = "images/icon/github_square.png" title = "github" width ="24">
-                        </a> |
-                        <a href="https://screencast-o-matic.com/watch/cr6li8VXuTu">
-                            <img src = "images/icon/video.png" title = "recording" width ="24">
-                        </a>
-                    </div>
-                </div>
-
-                <div style="height:8px;font-size:1px;">&nbsp;</div>
-
-                <div class="row work-block">
-                    <div class="project col-xs-3" style="position: center">
-                        <h4><span class="badge badge-secondary" style="background-color:
-                            #913b3a; font-size: 14px">EMNLP 2021</span></h4>
-                    </div>
-                    <div class="col-xs-9">
-                        Rujun Han, I-Hung Hsu, <strong>Jiao Sun</strong>, Julia Baylon, Qiang Ning, Dan
-                        Roth and Nanyun Peng
-                        <br>
-                        <a href="https://aclanthology.org/2021.emnlp-main.597/">ESTER: A Machine Reading Comprehension Dataset for Reasoning about
-                            Event Semantic Relations</a>
-                        <br>
-                        <a href="https://github.com/PlusLabNLP/ESTER">
-                            <img src = "images/icon/github_square.png" title = "github" width ="24">
-                        </a>
-                    </div>
-                </div>
-
-                <div style="height:8px;font-size:1px;">&nbsp;</div>
-
-                <div class="row work-block">
-                    <div class="project col-xs-3" style="position: center">
-                        <h4><span class="badge badge-secondary" style="background-color:
-                            #913b3a; font-size: 14px">ACL 2021</span></h4>
-                    </div>
-                    <div class="col-xs-9">
-                       <strong>Jiao Sun</strong> and Nanyun Peng
-                        <br>
-                        <a href="https://aclanthology.org/2021.acl-short.45/">Men Are Elected, Women Are Married: Events Gender Bias on Wikipedia</a>
-                        <br>
-                        <a href="https://github.com/PlusLabNLP/ee-wiki-bias">
-                            <img src = "images/icon/github_square.png" title = "github" width ="22">
-                        </a> |
-                        <a href="https://screencast-o-matic.com/watch/cr1TouV1wAX">
-                            <img src = "images/icon/video.png" title = "recording" width ="22">
-                        </a>
-                        <br>
-                        <div id="award">
-
-                            <img src = "images/icon/award.png" title = "recording" width ="26"
-                                 style="margin-top: 6px">
-                           Best Paper Nomination | <a href="images/proof.jpeg">
-                                link</a>
-                        </div>
+                <div>
+                    <br>
+                    <div id="news"><img src="images/icon/Newspaper.png" title="news"
+                                        width="30"
+                                        height="30"> News
                     </div>
 
-                </div>
-                <div style="height:8px;font-size:1px;">&nbsp;</div>
+                    <div class="row work-block">
+                        <ul>
+                            <li id="li"> 2022.10 &nbsp;We should never count #
+                                of
+                                accepted papers (💯%), but I am thrilled to have
+                                four
+                                (co)first-authored papers accepted to
+                                EMNLP!
+                            </li>
+                            <li id="li"> 2022.05 &nbsp; Excited to start my
+                                internship at
+                                Google
+                                Research!
+                            </li>
 
+                            <li> 2022.03 &nbsp; Best paper honorable mention at
+                                CHI 2022!
+                            </li>
 
-
-                <div class="row work-block">
-                    <div class="project col-xs-3" style="position: center">
-                        <h4><span class="badge badge-secondary" style="background-color:
-                            #913b3a; font-size: 14px">NAACL 2021 Demo</span></h4>
-                    </div>
-                    <div class="col-xs-9">
-                        Mingyu Derek Ma*, <strong>Jiao Sun*</strong>, Mu Yang, Kung-Hsiang Huang, Nuan
-                        Wen,
-                        Shikhar Singh, Rujun Han and Nanyun Peng
-                        <br>
-                        <a href="https://aclanthology.org/2021.naacl-demos.7/">EventPlus: A Temporal Event Understanding Pipeline</a>
-                        <br>
-                        <a href="https://github.com/PlusLabNLP/EventPlus">
-                            <img src = "images/icon/github_square.png" title = "github" width ="24">
-                        </a>
-                        | <a href="https://underline.io/lecture/19562-eventplus-a-temporal-event-understanding-pipeline">
-                            <img src = "images/icon/video.png" title = "recording" width ="24">
-                        </a>
-                        | <a href="https://pluslabnlp.github.io/eventplus">
-                        <img src="images/icon/video_new.png" title = "video" width="24"
-                             height="24"></a>
-                        | <a href="https://kairos-event.isi.edu/"><img src = "images/icon/link.png" title = "recording"
-                                        width ="24"></a>
-                    </div>
-                </div>
-
-                <div style="height:8px;font-size:1px;">&nbsp;</div>
-
-<!--                pkdd 1-->
-                  <div class="row work-block">
-                        <div class="project col-xs-3" style="position: center">
-                            <h4><span class="badge badge-secondary" style="background-color:
-                            #913b3a; font-size: 14px">ECML-PKDD 2020</span></h4>
-                        </div>
-                        <div class="col-xs-9">
-                            <strong>Jiao Sun</strong>, Mingxuan Yue, Zongyu Lin, Xiaochen Yang, Gabe Kahn, Luciano Nocera and Cyrus Shahabi
-                            <br>
-                            <a href="https://link.springer.com/chapter/10.1007/978-3-030-67670-4_4">CrimeForecaster: Crime Prediction by Exploiting the
-                                Neighborhoods’ Spatiotemporal Dependencies</a>
-                            <br>
-                            <a href="https://github.com/sunjiao123sun/CrimeForecaster">
-                                <img src = "images/icon/github_square.png" title = "github" width ="24">
-                            </a>
-                        </div>
-                    </div>
-
-                <div style="height:8px;font-size:1px;">&nbsp;</div>
-
-                  <div class="row work-block">
-                      <div class="project col-xs-3" style="position: center">
-                          <h4><span class="badge badge-secondary" style="background-color:
-                            #913b3a; font-size: 14px">ECML-PKDD 2020</span></h4>
-                      </div>
-                      <div class="col-xs-9">
-                            Lu Chen, <strong>Jiao Sun</strong> and Wei Xu
-                            <br>
-                            <a href="http://people.iiis.tsinghua.edu.cn/~weixu/Krvdro9c/chen-pkdd20.pdf">FAWA: Fast Adversarial Watermark Attack on Optical Character
-                                Recognition (OCR) Systems</a>
-                        <br>
-                          <a href="https://github.com/strongman1995/Fast-Adversarial-Watermark-Attack-on-OCR">
-                              <img src = "images/icon/github_square.png" title = "github" width ="24">
-                          </a>
-                        </div>
-                    </div>
-
-                <div style="height:8px;font-size:1px;">&nbsp;</div>
-
-                <div class="row work-block">
-                    <div class="project col-xs-3" style="position: center">
-                        <h4><span class="badge badge-secondary" style="background-color:
-                            #913b3a; font-size: 14px">CHI 2020</span></h4>
-                    </div>
-
-                        <div class="col-xs-9">
-                            <strong>Jiao Sun</strong>, Yin Li, Charley Chen, Jihae Lee, Xin Liu, Zhigang Su,
-                            Ling Huang,  Lei Shi and Wei Xu
-
-                            <br>
-                            <a href="https://dl.acm.org/doi/abs/10.1145/3313831.3376140">FDHelper: Assist Unsupervised Fraud Detection Experts with
-                                Interactive Feature Selection and Evaluation</a>
-                            <br>
-                        </div>
-
-                    </div>
-
-                <div style="height:8px;font-size:1px;">&nbsp;</div>
-
-            </div>
-        </div>
-
-<!--        <div id="standard_test">-->
-<!--            <div class="container">-->
-<!--                <h2 class="section_title">Language Proficiency</h2>-->
-<!--                <br>-->
-<!--                <ul>-->
-<!--                    <li>GRE (Sep. 1st, 2018): Total: 328 (<strong>V: 162[>91%]</strong>, Q: 166[>90%]) AW: 3.5</li>-->
-<!--                    <li> TOEFL(Sep. 16th, 2018): Total: 104 (R: 30, L: 28, S: 23, W: 23)</li>-->
-<!--                </ul>-->
-<!--            </div>-->
-
-<!--        </div>-->
-        <br>
-
-        <div id="experience">
-            <div class="container">
-                <h2 class="section_title">Experience</h2>
-                <div class="row work-block">
-                    <div class="project col-xs-3" style="position: center">
-                        <h4><span class="badge badge-secondary" style="background-color:
-                            #bb68d1; font-size: 14px">May 2022 - Aug 2022</span></h4>
-                    </div>
-                    <div class="col-xs-9">
-                        Student Researcher-ship, <strong>Google Research</strong>
-                        </br>
-                        Host: <a href="http://sebastiangehrmann.com/">Sebastian Gehrmann</a>
-                        <br>
-                    </div>
-                </div>
-
-                <div class="row work-block">
-                    <div class="project col-xs-3" style="position: center">
-                        <h4><span class="badge badge-secondary" style="background-color:
-                            #bb68d1; font-size: 14px">Jan 2022 - May 2022</span></h4>
-                    </div>
-                    <div class="col-xs-9">
-                        Research Internship, <strong>Amazon Alexa AI</strong>
-                        </br>
-                        Manager: <a
-                            href="https://vnpeng.net/">Nanyun Violet Peng</a>
-                        <br>
-                        Mentor: <a href="https://www.linkedin.com/in/anjaliync">Anjali Narayan-Chen</a>
-                    </div>
-                </div>
-
-                <div class="row work-block">
-                    <div class="project col-xs-3" style="position: center">
-                        <h4><span class="badge badge-secondary" style="background-color:
-                            #bb68d1; font-size: 14px">May 2021 - Aug 2021</span></h4>
-                    </div>
-                    <div class="col-xs-9">
-                        Research Internship, <strong>IBM Thomas J. Watson Research Center</strong>
-                        </br>
-                        Manager: <a
-                            href="https://researcher.watson.ibm.com/researcher/view.php?person=us-jweisz">Justin D Weisz</a>
-                        <br>
-                        Mentors: <a
-                            href="http://qveraliao.com/">Mayank Agarwal</a>
-                        and <a href="">Q. Vera Liao</a>
+                            <!--<li id="li-important"> 2018.10 &nbsp; I am looking for a Ph.D. position!</li>-->
+                            <li id="li"> 2021.08 &nbsp AESOP and ESTER got
+                                accepted by
+                                EMNLP 2021, stay tuned!
+                                <!--and <a href="http://dbis.rwth-aachen.de/cms/staff/quix">Christoph Quix</a> from 2019.01.01 to 2019.04.01.-->
+                            </li>
+                            <li><img src="images/icon/basketball-1.png"
+                                     width="20">: I follow
+                                <img src="images/icon/celtics.png" width="20">
+                                Boston
+                                Celtics and <img src="images/icon/heat.png"
+                                                 width="20"> Miami
+                                Heat.
+                            </li>
+                            <!--                                <li> 2021.03 &nbsp<a-->
+                            <!--                                        href="https://aclanthology.org/2021.naacl-demos.7/">-->
+                            <!--                                    EventPlus</a> is-->
+                            <!--                                    accepted by NAACL'21 demo track!</a></li>-->
+                            <!--                                <li> 2018.05 &nbsp; Presented FraudVis and won the <strong> Best Poster Prize </strong> in The 8th Cross-Strait Tsinghua Postgraduate Academic Forum!</li>-->
+                            <!--                                <li> 2018.04 &nbsp;FraudVis is accepted by <strong style="font-weight: 50">PacificVis 2018!</strong></li>-->
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</div>
+<div id="rows" style="margin-left: 8%">
 
-        <div id="service">
-            <div class="container">
-                <h2 class="section_title">Service</h2>
-                <div class="row work-block">
-                    <div class="project col-xs-3" style="position: center">
-                        <h4><span class="badge badge-secondary" style="background-color:
+    <div id="experience">
+        <div class="container">
+            <h2 class="section_title">Experience</h2>
+            <div class="row work-block">
+                <div class="project col-xs-3" style="position: center">
+                    <h4><span class="badge badge-secondary" style="background-color:
+                            #bb68d1; font-size: 14px">May 2022 - Nov 2022</span>
+                    </h4>
+                </div>
+                <div class="col-xs-9">
+                    Student Researcher, <strong>Google Research NYC -> Google Brain</strong>
+                    </br>
+                    Hosts: <a href="https://sebastiangehrmann.github.io/">Sebastian
+                    Gehrmann</a>, <a href="https://jacobeisenstein.github.io/">Jacob Eisenstein</a>
+                    <br>
+                </div>
+            </div>
+
+            <div class="row work-block">
+                <div class="project col-xs-3" style="position: center">
+                    <h4><span class="badge badge-secondary" style="background-color:
+                            #bb68d1; font-size: 14px">Jan 2022 - May 2022</span>
+                    </h4>
+                </div>
+                <div class="col-xs-9">
+                    Research Internship, <strong>Amazon Alexa AI</strong>
+                    </br>
+                    Hosts: <a
+                        href="https://vnpeng.net/">Nanyun Violet Peng</a>, <a href="https://www.linkedin.com/in/anjaliync">Anjali
+                    Narayan-Chen</a>
+                </div>
+            </div>
+
+            <div class="row work-block">
+                <div class="project col-xs-3" style="position: center">
+                    <h4><span class="badge badge-secondary" style="background-color:
+                            #bb68d1; font-size: 14px">May 2021 - Aug 2021</span>
+                    </h4>
+                </div>
+                <div class="col-xs-9">
+                    Research Internship, <strong>IBM Thomas J. Watson Research
+                    Center</strong>
+                    </br>
+                    Hosts: <a
+                        href="https://researcher.watson.ibm.com/researcher/view.php?person=us-jweisz">Justin
+                    D Weisz</a>, <a href="http://qveraliao.com/">Q. Vera Liao</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <head>
+
+    </head>
+
+    <div id="includedPubs"></div>
+
+    <br>
+
+    <div id="talk">
+        <div class="container">
+            <h2 class="section_title">Invited Talks</h2>
+            <br>
+            <h3 class="subsection_title">2023</h3>
+
+            <div class="row work-block">
+                <div class="project col-xs-3" style="position: center">
+                    <h4><span class="badge badge-secondary" style="background-color:
+                            #a44e78; font-size: 14px">03/15</span> @ Wikimedia Research</h4>
+                </div>
+                <div class="col-xs-9">
+                    <strong>Event Gender Bias in Wikipedia</strong>
+                    <br>
+                    Host: <a href="https://www.linkedin.com/in/emily-lescak-b4652446">Emily Lescak</a> &nbsp; <a href="https://www.youtube.com/watch?v=lw4MzJgDIzo">
+                    <img src="images/icon/video_new.png" title="recording"
+                         width="24">
+                </a>
+                </div>
+            </div>
+
+            <div class="row work-block">
+                <div class="project col-xs-3" style="position: center">
+                    <h4><span class="badge badge-secondary" style="background-color:
+                            #a44e78; font-size: 14px">02/14</span> @ Allen Institute for AI</h4>
+                </div>
+                <div class="col-xs-9">
+                    <strong>Discovering and Addressing the Pitfalls in Practical Text Generation</strong>
+                    <br>
+                    Host: <a href="https://nasmith.github.io/">Noah A. Smith</a>
+                </div>
+            </div>
+
+            <br>
+            <h3 class="subsection_title">2022</h3>
+
+            <div class="row work-block">
+                <div class="project col-xs-3" style="position: center">
+                    <h4><span class="badge badge-secondary" style="background-color:
+                            #a44e78; font-size: 14px">13/12</span> Interviewed by <br>Amazon Science</h4>
+                </div>
+                <div class="col-xs-9">
+                    Article: <a href="https://www.amazon.science/working-at-amazon/amazon-machine-learning-fellow-jiao-sun-text-generation"><strong>"I want machines to write as fluently as humans"</strong></a>
+                </div>
+            </div>
+
+            <div class="row work-block">
+                <div class="project col-xs-3" style="position: center">
+                    <h4><span class="badge badge-secondary" style="background-color:
+                            #a44e78; font-size: 14px">09/23</span> @ USC-Amazon Center </h4>
+                </div>
+                <div class="col-xs-9">
+                    <strong>Context Situated Pun Genereation</strong>
+                    <br>
+                    Host: <a href="https://viterbi.usc.edu/directory/faculty/Avestimehr/Salman">Salman Avestimehr</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="service">
+        <div class="container">
+            <h2 class="section_title">Service</h2>
+            <div class="row work-block">
+                <div class="project col-xs-3" style="position: center">
+                    <h4><span class="badge badge-secondary" style="background-color:
                             #a44e78; font-size: 14px">2022</span></h4>
-                    </div>
-                    <div class="col-xs-9">
-                        AAAI 2022, CSCW 2022, EMNLP 2022
-                    </div>
                 </div>
-                <div class="row work-block">
-                    <div class="project col-xs-3" style="position: center">
-                        <h4><span class="badge badge-secondary" style="background-color:
+                <div class="col-xs-9">
+                    AAAI 2022, CSCW 2022, EMNLP 2022
+                </div>
+            </div>
+            <div class="row work-block">
+                <div class="project col-xs-3" style="position: center">
+                    <h4><span class="badge badge-secondary" style="background-color:
                             #a44e78; font-size: 14px">2023</span></h4>
-                    </div>
-                    <div class="col-xs-9">
-                        AAAI 2023, CHI 2023, CSCW 2023, TL4NLP@NeurIPS 2023
-                    </div>
-
+                </div>
+                <div class="col-xs-9">
+                    AAAI 2023, CHI 2023, CSCW 2023, TL4NLP@NeurIPS 2023
+                </div>
 
             </div>
         </div>
-
-<!--        <div id="honors">-->
-<!--            <div class="container">-->
-<!--                <h2 class="section_title">Selected Honors</h2>-->
-<!--                <div class="row work-block">-->
-<!--                    <ul>-->
-<!--                        <li>10/2018 &nbsp; Tsinghua-RWTH Aachen Research Joint Fellowship </li>-->
-<!--                        <li>10/2017 &nbsp; Baidu-Tsinghua Future Star Scholarship of Tsinghua University (top 3%) </li>-->
-<!--                        <li>10/2017 &nbsp; Baidu-Tsinghua Social Work Scholarship of Tsinghua University  (top 3%) </li>-->
-<!--                        <li>05/2016 &nbsp; Outstanding Graduate of Shandong Province (top 1%） </li>-->
-<!--                        <li>05/2016 &nbsp; Outstanding Graduate of Shandong University (top 3%)</li>-->
-<!--&lt;!&ndash;                        <li>2013~2016 &nbsp; First-Class Scholarship of Shandong University (consecutive three times,&ndash;&gt;-->
-<!--&lt;!&ndash;                            top 2%)</li>&ndash;&gt;-->
-<!--&lt;!&ndash;                        <li>2013~2016 &nbsp;Merit Student of Shandong University(consecutive three times, top 2%)</li>&ndash;&gt;-->
-<!--&lt;!&ndash;                        &lt;!&ndash;<li>2013~2016 &nbsp; National Motivational Scholarship (consecutive three times, top 2%)</li>&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;                        &lt;!&ndash;<li>09/2016 &nbsp; Excellent Student Cadre of Shandong University(top 3%)</li>&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;                        <li>08/2015 &nbsp; First Prize, Mathematical Contest of Modeling in Shandong University(top 1%)</li>&ndash;&gt;-->
-<!--&lt;!&ndash;                        <li>05/2015 &nbsp; Second Prize, Mathematical Contest in Modeling</li>&ndash;&gt;-->
-<!--&lt;!&ndash;                        <li>05/2014 &nbsp; Bronze Award, Mobile Innovation Programming Contest</li>&ndash;&gt;-->
-<!--&lt;!&ndash;                        <li>09/2013 &nbsp; Bronze Award, Qilu Software Programming Contest</li>&ndash;&gt;-->
-<!--&lt;!&ndash;                        <li>03/2013 &nbsp; Best debater of Shandong University</li>&ndash;&gt;-->
-
-<!--                    </ul>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-
-<!--        <div id="acknowledgement">-->
-<!--            <div class="container">-->
-<!--                <h2 class="section_title">Acknowledgement</h2>-->
-<!--                <div class="row work-block" style="width: 80%; margin-left: 2%">-->
-
-<!--                    <p>-->
-
-<!--                        I want to thank all of the people who have supported me through this journey.-->
-<!--                    <br>-->
-
-<!--                    I was so lucky to have Professor <a href="http://people.iiis.tsinghua.edu.cn/~weixu/">Wei Xu</a>-->
-<!--                        as my advisor, my friend, and my idol during my master's study! His attitude toward research-->
-<!--                        and family will guide me all my life. I can't express how much I thank him for thorough-->
-<!--                        care for my life, having showed me the way in a brand new research field and always believing-->
-<!--                        in me. He is also the one who inspires me to do a Ph.D.-->
-<!--                        My career ambition is to be a professor, and I hope my students will also love me as much as we love him! I hope one day, I will also make him proud. 😇-->
-
-<!--                    <br>-->
-
-<!--                    Dr. <a href="http://www.linghuang.org/">Ling Huang</a>, CEO of Fintech. Inc in China gave me the unique opportunity to work with industry giants, which makes me work on real-world problems.-->
-<!--                        <br>-->
-<!--                        Thank you all as well as my family and friends. There is no way I would be who I am right-->
-<!--                        now-->
-<!--                        without you.-->
-<!--                    </p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-
-
-<!--        <div id="hobbies">-->
-<!--            <div class="container">-->
-<!--                <h2 class="section_title">Hobbies &#45;&#45; "Healthy body, healthy mind."</h2>-->
-<!--                <div class="row work-block">-->
-
-<!--                    <ul>-->
-<!--                        <li>Sports! HIT THE GYM 🏋️ and outdoor activities like hiking 🚴 and scuba diving 🏊! Never forget-->
-<!--                            ping-pong 🏓!</li>-->
-<!--                        <li>Languages! I am now on my way to learn German and French.</li>-->
-<!--                        <li>Instruments! Immediate drum 🥁 lover.</li>-->
-<!--                    </ul>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
     </div>
 
     <footer class="container footer">
         <div class="row">
             <div class="text-center">
-            © Last update: 07.2022, Jiao Sun &nbsp;&nbsp;&nbsp;&nbsp; Visitor Number
-                <a href='https://www.counter12.com'><img src='https://www.counter12.com/img-b928Y8dD8YDYZ88D-9.gif' border='0' alt='counter'></a>
+                © Last update: 07.2022, Jiao Sun &nbsp;&nbsp;&nbsp;&nbsp;
+                Visitor Number
+                <a href='https://www.counter12.com'><img
+                        src='https://www.counter12.com/img-b928Y8dD8YDYZ88D-9.gif'
+                        border='0' alt='counter'></a>
             </div>
         </div>
     </footer>
 
-<body>
-
-</body>
+    <body>
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script>
+        $(function(){
+            $("#includedPubs").load("publication.html");
+        });
+    </script>
+    </body>
 </html>
