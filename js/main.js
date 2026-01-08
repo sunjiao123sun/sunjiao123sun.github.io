@@ -6,10 +6,21 @@ let siteData = {};
 async function loadData() {
     try {
         const response = await fetch('data.json');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
         siteData = await response.json();
+        console.log('Data loaded successfully:', siteData);
         renderContent();
     } catch (error) {
         console.error('Error loading data:', error);
+        document.body.innerHTML = `
+            <div style="padding: 2rem; text-align: center; font-family: sans-serif;">
+                <h1>Error Loading Website Data</h1>
+                <p>There was a problem loading the website content. Please try refreshing or check back later.</p>
+                <p style="color: #666; font-size: 0.9rem;">Details: ${error.message}</p>
+            </div>
+        `;
     }
 }
 
@@ -157,7 +168,12 @@ function renderNews() {
 // Render Awards Section
 function renderAwards() {
     const awardsContainer = document.querySelector('#awards .awards-list');
-    if (!awardsContainer || !siteData.awards) return;
+    if (!awardsContainer) return;
+
+    if (!siteData.awards || siteData.awards.length === 0) {
+        document.querySelector('#awards').style.display = 'none';
+        return;
+    }
 
     awardsContainer.innerHTML = siteData.awards.map(award => `
         <div class="work-block">
@@ -175,7 +191,12 @@ function renderAwards() {
 // Render Publications Section
 function renderPublications() {
     const pubContainer = document.querySelector('#includedPubs');
-    if (!pubContainer || !siteData.publications) return;
+    if (!pubContainer) return;
+
+    if (!siteData.publications || siteData.publications.length === 0) {
+        document.querySelector('#publication').style.display = 'none';
+        return;
+    }
 
     // Group publications by year
     const grouped = siteData.publications.reduce((acc, pub) => {
