@@ -1,0 +1,613 @@
+{
+  "personal": {
+    "name": "Jiao Sun",
+    "title": "Senior Research Scientist at Google DeepMind",
+    "email": "jiaosun.thu@gmail.com",
+    "phone": "(+1) 213-379-5078",
+    "photo": "images/portrait.jpg",
+    "photoCaption": "Nov 3rd, 2025",
+    "photoCredit": "Photo not (😏) taken by my friend",
+    "photoCreditLink": "https://sites.google.com/site/xunannancy/",
+    "photoCreditName": "Nancy",
+    "logo": "images/logo.001.png",
+    "social": {
+      "twitter": {
+        "url": "https://twitter.com/sunjiao123sun_?ref_src=twsrc%5Etfw",
+        "handle": "@sunjiao123sun_"
+      },
+      "github": {
+        "url": "https://github.com/sunjiao123sun",
+        "icon": "images/icon/github_square.png"
+      },
+      "scholar": {
+        "url": "https://scholar.google.com.hk/citations?user=7xWN15gAAAAJ&hl=en/",
+        "icon": "images/icon/scholar.jpg"
+      },
+      "linkedin": {
+        "url": "https://www.linkedin.com/in/jiao-sun-780323283",
+        "icon": "images/icon/linkedin.png"
+      }
+    }
+  },
+  "sidebar": {
+    "interests": [
+      "Large Language Models",
+      "Coding",
+      "Post-training & Alignment",
+      "Instruction Following"
+    ],
+    "education": [
+      {
+        "degree": "Ph.D. in Computer Science",
+        "institution": "USC",
+        "year": "2023"
+      },
+      {
+        "degree": "B.E. in Computer Science",
+        "institution": "Tsinghua University (IIIS)",
+        "year": "2018"
+      }
+    ],
+    "hobbies": [
+      {
+        "name": "Basketball",
+        "icon": "images/icon/basketball-1.png"
+      },
+      {
+        "name": "Gym",
+        "icon": "images/icon/gym.png"
+      },
+      {
+        "name": "Thinking",
+        "icon": "images/icon/thought.png"
+      }
+    ]
+  },
+  "bio": {
+    "paragraphs": [
+      "Hi there 👋 I am a Research Scientist at Google DeepMind, working on post-training for Gemini models and have been a core contributor to Google Gemini (1.5, 2.0, 2.5, and 3.0) launches. More specifically, I make Gemini better at coding especially on WebApp development. In recent Gemini 3.0 launches, I am a core member of VibeCoding team that made Gemini #1 on WebApp Dev leaderboards, including WebDev Arena and Design Arena.  Before that, I worked on improving the instruction following capability of Gemini models and have led the instruction following autoeval efforts.",
+      "I completed my Ph.D. in Computer Science at USC, where I was selected as a 2023 EECS Rising Star. My mentors were Xuezhe Ma and Nanyun Violet Peng. Before USC, I was at IIIS, Tsinghua University, working with Dr. Wei Xu on AutoML."
+    ],
+    "links": {
+      "Xuezhe Ma": "https://xuezhemax.github.io/",
+      "Nanyun Violet Peng": "https://violetpeng.github.io/",
+      "IIIS": "https://iiis.tsinghua.edu.cn/en/",
+      "WebDev Arena": "https://x.com/GoogleDeepMind/status/1990812968951411003",
+      "Design Arena": "https://x.com/Designarena/status/1990814406700065217",
+      "Tsinghua University": "http://www.tsinghua.edu.cn/publish/newthuen/index.html",
+      "Wei Xu": "https://people.iiis.tsinghua.edu.cn/~weixu/",
+      "2023 EECS Rising Star": "https://eecsrisingstars2023.cc.gatech.edu/participants/Jiao_Sun/"
+    }
+  },
+  "news": [
+    {
+      "date": "2025",
+      "text": "Gemini 3.0 launches! Glad to have brought Gemini #1 on WebDev Arena and Design Arena!",
+      "important": false
+    },
+    {
+      "date": "2024",
+      "text": "Lectured on Instruction Following at ArmLLM 2024 Summer School in Yerevan, Armenia",
+      "important": false
+    },
+    {
+      "date": "2024",
+      "text": "Best Paper Award at CVPR 2024 for 'Rich Human Feedback for Text-to-Image Generation'!",
+      "important": true
+    },
+    {
+      "date": "2023",
+      "text": "Selected as 2023 EECS Rising Star!",
+      "important": true
+    },
+    {
+      "date": "2023",
+      "text": "Joined Google DeepMind",
+      "important": false
+    },
+    {
+      "date": "2022",
+      "text": "Amazon ML PhD Fellowship Winner",
+      "important": false
+    },
+    {
+      "date": "2022",
+      "text": "Best Paper Honorable Mention at CHI",
+      "important": false
+    },
+    {
+      "date": "2021",
+      "text": "Best Paper Nomination at ACL",
+      "important": false
+    }
+  ],
+  "awards": [
+    {
+      "year": "2023",
+      "award": "2023 EECS Rising Star, Winner",
+      "location": ""
+    },
+    {
+      "year": "2024",
+      "award": "Best Paper Award at CVPR 2024",
+      "location": "",
+      "paper": "Rich Human Feedback for Text-to-Image Generation"
+    },
+    {
+      "year": "2022",
+      "award": "Amazon ML PhD Fellowship, Winner",
+      "location": ""
+    },
+    {
+      "year": "2022",
+      "award": "IBM PhD Fellowship, Finalist",
+      "location": ""
+    },
+    {
+      "year": "2022",
+      "award": "Two Sigma PhD Diversity Fellowship, Finalist",
+      "location": ""
+    },
+    {
+      "year": "2022",
+      "award": "Best Paper Honorable Mention at CHI 2022",
+      "location": ""
+    },
+    {
+      "year": "2021",
+      "award": "Best Paper Nomination at ACL 2021",
+      "location": ""
+    }
+  ],
+  "publications": [
+    {
+      "year": "2025",
+      "venue": "Submitted to ICLR 2026",
+      "venueClass": "venue-iclr",
+      "authors": [
+        "Ming Zhong",
+        "Xiang Zhou",
+        "Ting-Yun Chang",
+        "Qingze Wang",
+        "Nan Xu",
+        "Xiance Si",
+        "Dan Garrette",
+        "Shyam Upadhyay",
+        "Jeremiah Liu",
+        "Jiawei Han",
+        "Benoit Schillings",
+        "Jiao Sun"
+      ],
+      "title": "Vibe Checker: Aligning Code Evaluation with Human Preference",
+      "url": "https://arxiv.org/abs/2510.07315",
+      "tags": [
+        "Coding",
+        "Eval"
+      ]
+    },
+    {
+      "year": "2025",
+      "venue": "Submitted to ICLR 2026",
+      "venueClass": "venue-iclr",
+      "authors": [
+        "Langxing Bai",
+        "Fan Yin",
+        "Jiao Sun",
+        "Kai-Wei Chang"
+      ],
+      "title": "ProcessLID: Step-wise Internal Reward in LLM Reasoning via Local Intrinsic Dimension",
+      "url": "https://openreview.net/forum?id=e9MLB2q8idPx9i1MDoQI",
+      "tags": [
+        "Reward Model",
+        "Post-Training"
+      ]
+    },
+    {
+      "year": "2025",
+      "venue": "Gemini Technical Report",
+      "venueClass": "venue-gemini",
+      "authors": [
+        "Jiao Sun",
+        "and other 1000+ authors"
+      ],
+      "title": "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities",
+      "url": "https://arxiv.org/abs/2507.06261",
+      "tags": [
+        "Post-Training"
+      ],
+      "note": "Core contributor in Post-training, IF and WebDev"
+    },
+    {
+      "year": "2024",
+      "venue": "Gemini Technical Report",
+      "venueClass": "venue-gemini",
+      "authors": [
+        "Jiao Sun",
+        "and other 1000+ authors"
+      ],
+      "title": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+      "url": "https://arxiv.org/abs/2403.05530",
+      "tags": [
+        "Post-Training"
+      ],
+      "note": "Instruction Following (IF) Eval Lead, Core contributor for IF capability in Post-training"
+    },
+    {
+      "year": "2024",
+      "venue": "ACL 2025",
+      "venueClass": "venue-acl",
+      "authors": [
+        "Yufei Tian",
+        "Jiao Sun",
+        "Nanyun Peng",
+        "Zizhao Zhang"
+      ],
+      "title": "SkillVerse: Structuring, Evaluating, and Improving Model Capabilities from the Wild",
+      "url": "https://arxiv.org/abs/2402.04692",
+      "tags": [
+        "Evaluation"
+      ]
+    },
+    {
+      "year": "2024",
+      "venue": "NAACL 2025",
+      "venueClass": "venue-naacl",
+      "authors": [
+        "Jiao Sun",
+        "Deqing Fu",
+        "Yushi Hu",
+        "Su Wang",
+        "Royi Rassin",
+        "Da-Cheng Juan",
+        "Dana Alon",
+        "Charles Herrmann",
+        "Sjoerd van Steenkiste",
+        "Ranjay Krishna",
+        "and Cyrus Rashtchian"
+      ],
+      "title": "DreamSync: Aligning Text-to-Image Generation with Image Understanding Feedback",
+      "url": "https://arxiv.org/abs/2311.17946",
+      "tags": [
+        "Multimodality",
+        "Alignment"
+      ]
+    },
+    {
+      "year": "2024",
+      "venue": "CVPR 2024",
+      "venueClass": "venue-cvpr",
+      "authors": [
+        "Youwei Liang",
+        "Junfeng He",
+        "Gang Li",
+        "Peizhao Li",
+        "Arseniy Klimovskiy",
+        "Nicholas Carolan",
+        "Jiao Sun",
+        "Jordi Pont-Tuset",
+        "Sarah Young",
+        "Feng Yang",
+        "Junjie Ke",
+        "Krishnamurthy Dj Dvijotham",
+        "Katherine M. Collins",
+        "Yiwen Luo",
+        "Yang Li",
+        "Kai J. Kohlhoff",
+        "Deepak Ramachandran",
+        "and Vidhya Navalpakkam"
+      ],
+      "title": "Rich Human Feedback for Text-to-Image Generation",
+      "url": "https://arxiv.org/abs/2312.10240",
+      "tags": [
+        "Multimodality",
+        "Alignment"
+      ],
+      "award": "Best Paper Award"
+    },
+    {
+      "year": "2023",
+      "venue": "EMNLP 2023",
+      "venueClass": "venue-emnlp",
+      "authors": [
+        "Jiao Sun",
+        "Yufei Tian",
+        "Wangchunshu Zhou",
+        "Nan Xu",
+        "Qian Hu",
+        "Rahul Gupta",
+        "John Frederick Wieting",
+        "Nanyun Peng",
+        "Xuezhe Ma"
+      ],
+      "title": "Evaluating Large Language Models on Controlled Generation Tasks",
+      "url": "https://aclanthology.org/2023.emnlp-main.190/",
+      "tags": [
+        "Evaluation",
+        "Controllability"
+      ]
+    },
+    {
+      "year": "2023",
+      "venue": "NeurIPS 2023",
+      "venueClass": "venue-neurips",
+      "authors": [
+        "Chunting Zhou",
+        "Pengfei Liu",
+        "Puxin Xu",
+        "Srini Iyer",
+        "Jiao Sun",
+        "Yuning Mao",
+        "Xuezhe Ma",
+        "Avia Efrat",
+        "Ping Yu",
+        "Lili Yu",
+        "Susan Zhang",
+        "Gargi Ghosh",
+        "Mike Lewis",
+        "Luke Zettlemoyer",
+        "Omer Levy"
+      ],
+      "title": "LIMA: Less is More for Alignment",
+      "url": "https://arxiv.org/abs/2305.11206",
+      "tags": [
+        "Large Language Model",
+        "Alignment"
+      ]
+    },
+    {
+      "year": "2023",
+      "venue": "ACL 2023",
+      "venueClass": "venue-acl",
+      "authors": [
+        "Jiao Sun",
+        "Thibault Sellam",
+        "Elizabeth Clark",
+        "Tu Vu",
+        "Timothy Dozat",
+        "Dan Garrette",
+        "Aditya Siddhant",
+        "Jacob Eisenstein",
+        "Sebastian Gehrmann"
+      ],
+      "title": "Dialect-robust Evaluation of Text Generation",
+      "url": "https://arxiv.org/abs/2211.00922",
+      "tags": [
+        "Generation",
+        "Evaluation"
+      ]
+    },
+    {
+      "year": "2022",
+      "venue": "EMNLP 2022",
+      "venueClass": "venue-emnlp",
+      "authors": [
+        "Jiao Sun",
+        "Anjali Narayan-Chen",
+        "Shereen Oraby",
+        "Shuyang Gao",
+        "Tagyoung Chung",
+        "Jing Huang",
+        "Yang Liu",
+        "Nanyun Peng"
+      ],
+      "title": "Context-Situated Pun Generation",
+      "url": "https://arxiv.org/abs/2210.13522",
+      "tags": [
+        "Generation"
+      ],
+      "links": {
+        "GitHub": ""
+      }
+    },
+    {
+      "year": "2022",
+      "venue": "EMNLP 2022",
+      "venueClass": "venue-emnlp",
+      "authors": [
+        "Jiao Sun",
+        "Anjali Narayan-Chen",
+        "Shereen Oraby",
+        "Alessandra Cervone",
+        "Tagyoung Chung",
+        "Jing Huang",
+        "Yang Liu",
+        "and Nanyun Peng"
+      ],
+      "title": "ExPUNations: Augmenting Puns with Keywords and Explanations",
+      "url": "https://arxiv.org/abs/2210.13513",
+      "tags": [
+        "Generation"
+      ],
+      "links": {
+        "GitHub": ""
+      }
+    },
+    {
+      "year": "2022",
+      "venue": "EMNLP 2022 Findings",
+      "venueClass": "venue-emnlp",
+      "authors": [
+        "Jiao Sun",
+        "Swabha Swayamdipta",
+        "Jonathan May",
+        "and Xuezhe Ma"
+      ],
+      "title": "Investigating the Benefits of Free-Form Rationales",
+      "url": "https://arxiv.org/abs/2206.11083",
+      "tags": [
+        "Generation",
+        "Interpretability"
+      ],
+      "links": {
+        "GitHub": ""
+      }
+    },
+    {
+      "year": "2022",
+      "venue": "EMNLP 2022 Findings",
+      "venueClass": "venue-emnlp",
+      "authors": [
+        "Arshiya Aggarwal*",
+        "Jiao Sun*",
+        "and Nanyun Peng"
+      ],
+      "title": "Towards Robust Bias Evaluation with Syntactically-diverse Prompts",
+      "url": "https://aclanthology.org/2022.emnlp-main.28/",
+      "tags": [
+        "Generation",
+        "Evaluation"
+      ],
+      "note": "*equal contribution",
+      "links": {
+        "GitHub": ""
+      }
+    },
+    {
+      "year": "2022",
+      "venue": "CHI 2022",
+      "venueClass": "venue-chi",
+      "authors": [
+        "Jiao Sun",
+        "Tongshuang Wu",
+        "Yue Jiang",
+        "Ronil Awalegaonkar",
+        "Xi Victoria Lin",
+        "and Diyi Yang"
+      ],
+      "title": "Pretty Princess vs. Successful Leader: Gender Roles in Greeting Card Messages",
+      "url": "https://dl.acm.org/doi/10.1145/3491102.3502114",
+      "tags": [
+        "Generation",
+        "AI Fairness"
+      ],
+      "award": "Best Paper Honorable Mention"
+    },
+    {
+      "year": "2022",
+      "venue": "IUI 2022",
+      "venueClass": "venue-iui",
+      "authors": [
+        "Jiao Sun",
+        "Q. Vera Liao",
+        "Michael Muller",
+        "Mayank Agarwal",
+        "Stephanie Houde",
+        "Kartik Talamadupula",
+        "Justin D. Weisz"
+      ],
+      "title": "Investigating Explainability of Generative Models for Code through Scenario-Based Design",
+      "url": "https://arxiv.org/abs/2202.04903",
+      "tags": [
+        "Generation",
+        "Explainability"
+      ]
+    },
+    {
+      "year": "2022",
+      "venue": "AAAI 2022",
+      "venueClass": "venue-aaai",
+      "authors": [
+        "Chenyu Wang",
+        "Zongyu Lin",
+        "Xiaochen Yang",
+        "Mingxuan Yue",
+        "Jiao Sun",
+        "Cyrus Shahabi"
+      ],
+      "title": "HAGEN: Homophily-Aware Graph Convolutional Recurrent Network for Crime Forecasting",
+      "url": "https://arxiv.org/abs/2109.12846",
+      "tags": [
+        "AI for social good"
+      ]
+    },
+    {
+      "year": "2021",
+      "venue": "EMNLP 2021",
+      "venueClass": "venue-emnlp",
+      "authors": [
+        "Jiao Sun",
+        "Xuezhe Ma",
+        "and Nanyun Peng"
+      ],
+      "title": "AESOP: Paraphrase Generation with Adaptive Syntactic Control",
+      "url": "https://aclanthology.org/2021.emnlp-main.420/",
+      "tags": [
+        "Controlled Generation"
+      ],
+      "links": {
+        "GitHub": "https://github.com/pluslabnlp/aesop",
+        "Video": "https://screencast-o-matic.com/watch/cr6li8VXuTu"
+      }
+    },
+    {
+      "year": "2021",
+      "venue": "EMNLP 2021",
+      "venueClass": "venue-emnlp",
+      "authors": [
+        "Rujun Han",
+        "I-Hung Hsu",
+        "Jiao Sun",
+        "Julia Baylon",
+        "Qiang Ning",
+        "Dan Roth",
+        "and Nanyun Peng"
+      ],
+      "title": "ESTER: A Machine Reading Comprehension Dataset for Reasoning about Event Semantic Relations",
+      "url": "https://aclanthology.org/2021.emnlp-main.597/",
+      "tags": [
+        "Event"
+      ],
+      "links": {
+        "GitHub": "https://github.com/PlusLabNLP/ESTER"
+      }
+    },
+    {
+      "year": "2021",
+      "venue": "ACL 2021",
+      "venueClass": "venue-acl",
+      "authors": [
+        "Jiao Sun",
+        "and Nanyun Peng"
+      ],
+      "title": "Men Are Elected, Women Are Married: Events Gender Bias on Wikipedia",
+      "url": "https://aclanthology.org/2021.acl-short.45/",
+      "tags": [
+        "AI Fairness in NLP"
+      ],
+      "award": "Best Paper Nomination",
+      "links": {
+        "GitHub": "https://github.com/PlusLabNLP/ee-wiki-bias",
+        "Video": "https://screencast-o-matic.com/watch/cr1TouV1wAX"
+      }
+    },
+    {
+      "year": "2021",
+      "venue": "NAACL 2021 Demo",
+      "venueClass": "venue-naacl",
+      "authors": [
+        "Mingyu Derek Ma*",
+        "Jiao Sun*",
+        "Mu Yang",
+        "Kung-Hsiang Huang",
+        "Nuan Wen",
+        "Shikhar Singh",
+        "Rujun Han",
+        "and Nanyun Peng"
+      ],
+      "title": "EventPlus: A Temporal Event Understanding Pipeline",
+      "url": "https://aclanthology.org/2021.naacl-demos.7/",
+      "tags": [
+        "Event",
+        "HCI"
+      ],
+      "note": "*equal contribution",
+      "links": {
+        "GitHub": "https://github.com/PlusLabNLP/EventPlus",
+        "Video": "https://underline.io/lecture/19562-eventplus-a-temporal-event-understanding-pipeline",
+        "Demo": "https://pluslabnlp.github.io/eventplus",
+        "Link": "https://kairos-event.isi.edu/"
+      }
+    }
+  ],
+  "lastUpdate": "01.2026"
+}
