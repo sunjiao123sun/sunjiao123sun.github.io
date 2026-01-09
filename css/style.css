@@ -153,12 +153,7 @@ main {
     align-items: start;
 }
 
-@media (max-width: 968px) {
-    .about-content {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-}
+
 
 .profile-image-container {
     position: sticky;
@@ -171,6 +166,24 @@ main {
     border: 3px solid #fff;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     transition: var(--transition);
+}
+
+@media (max-width: 968px) {
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .profile-image-container {
+        position: static !important;
+        margin-bottom: 1rem;
+    }
+
+    .profile-image {
+        max-width: 400px;
+        margin: 0 auto;
+        display: block;
+    }
 }
 
 .profile-image:hover {
