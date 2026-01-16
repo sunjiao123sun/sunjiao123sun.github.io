@@ -65,8 +65,9 @@
   },
   "bio": {
     "paragraphs": [
-      "Hi there 👋 I am a Research Scientist at Google DeepMind, working on post-training for Gemini models and have been a core contributor to Google Gemini (1.5, 2.0, 2.5, and 3.0) launches. More specifically, I make Gemini better at coding especially on WebApp development. In recent Gemini 3.0 launches, I am a core member of VibeCoding team that made Gemini #1 on WebApp Dev leaderboards, including WebDev Arena and Design Arena.  Before that, I worked on improving the instruction following capability of Gemini models and have led the instruction following autoeval efforts.",
-      "I completed my Ph.D. in Computer Science at USC, where I was selected as a 2023 EECS Rising Star. My mentors were Xuezhe Ma and Nanyun Violet Peng. Before USC, I was at IIIS, Tsinghua University, working with Dr. Wei Xu on AutoML."
+      "Hi there 👋 I am a Senior Research Scientist at Google DeepMind, working on post-training for Gemini models. I have been a core contributor to the Google Gemini (1.5, 2.0, 2.5, and 3.0) launche series, specifically focusing on making Gemini the top-performing model for coding and WebApp development. We recently hit #1 on the WebDev Arena and Design Arena with the Gemini 3 launch! 🚀 ",
+      "I completed my Ph.D. at USC, where I was honored as a 2023 EECS Rising Star and supported by an Amazon ML PhD Fellowship. My mentors were Xuezhe Ma and Nanyun Violet Peng. Over the years, my research has received some wonderful recognition, including a Best Paper Award at CVPR 2024, an Honorable Mention at CHI 2022 (as the first author), and an Honorable Mention at ACL 2021 (as the first author). ",
+      "I am also deeply committed to AI education and outreach. I have had the pleasure of lecturing at the first Armenian Summer School on LLMs and being featured in a research profile by Amazon Science. Before USC, I was at IIIS, Tsinghua University, working with Dr. Wei Xu on AutoML."
     ],
     "links": {
       "Xuezhe Ma": "https://xuezhemax.github.io/",
@@ -76,7 +77,12 @@
       "Design Arena": "https://x.com/Designarena/status/1990814406700065217",
       "Tsinghua University": "http://www.tsinghua.edu.cn/publish/newthuen/index.html",
       "Wei Xu": "https://people.iiis.tsinghua.edu.cn/~weixu/",
-      "2023 EECS Rising Star": "https://eecsrisingstars2023.cc.gatech.edu/participants/Jiao_Sun/"
+      "2023 EECS Rising Star": "https://eecsrisingstars2023.cc.gatech.edu/participants/Jiao_Sun/",
+      "Best Paper Award at CVPR 2024": "https://cvpr.thecvf.com/Conferences/2024/News/Awards",
+      "Honorable Mention at CHI 2022": "https://dl.acm.org/doi/10.1145/3491102.3502114",
+      "Amazon ML PhD Fellowship": "https://www.amazon.science/academic-engagements/amazon-names-2022-ml-fellows",
+      "Armenian Summer School on LLMs": "https://2022.itel.am/en/news/15435",
+      "Amazon Science": "https://www.amazon.science/working-at-amazon/amazon-machine-learning-fellow-jiao-sun-text-generation"
     }
   },
   "news": [
