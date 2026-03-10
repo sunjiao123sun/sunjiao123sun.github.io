@@ -87,6 +87,11 @@
   },
   "news": [
     {
+      "date": "2026",
+      "text": "Gemini 3.1 launches! Three of us brought Gemini #1 for SVG generation!",
+      "important": true
+    },
+    {
       "date": "2025",
       "text": "Gemini 3.0 launches! Glad to have brought Gemini #1 on WebDev Arena and Design Arena!",
       "important": false
